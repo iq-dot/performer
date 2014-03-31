@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Linux Dynamic" />
+	<File name="performer/analysis/analyzer.h" open="0" top="0" tabpos="1">
+		<Cursor position="1029" topLine="4" />
+	</File>
+	<File name="performer/analysis/comparer.h" open="0" top="0" tabpos="0">
+		<Cursor position="357" topLine="0" />
+	</File>
+	<File name="performer/analysis/paverage.h" open="0" top="0" tabpos="0">
+		<Cursor position="429" topLine="0" />
+	</File>
+	<File name="performer/analysis/pfunctor.h" open="0" top="0" tabpos="0">
+		<Cursor position="632" topLine="1" />
+	</File>
+	<File name="performer/analysis/pmax.h" open="0" top="0" tabpos="0">
+		<Cursor position="447" topLine="0" />
+	</File>
+	<File name="performer/analysis/pmin.h" open="0" top="0" tabpos="0">
+		<Cursor position="443" topLine="0" />
+	</File>
+	<File name="performer/analysis/pstddeviation.h" open="0" top="0" tabpos="7">
+		<Cursor position="989" topLine="0" />
+	</File>
+	<File name="performer/config/configfile.h" open="0" top="0" tabpos="2">
+		<Cursor position="2087" topLine="46" />
+	</File>
+	<File name="performer/data_collection/datacollector.h" open="0" top="0" tabpos="3">
+		<Cursor position="1188" topLine="9" />
+	</File>
+	<File name="performer/data_collection/linux/linfactory.h" open="0" top="0" tabpos="0">
+		<Cursor position="344" topLine="0" />
+	</File>
+	<File name="performer/data_collection/linux/linmemprof.h" open="0" top="0" tabpos="0">
+		<Cursor position="426" topLine="0" />
+	</File>
+	<File name="performer/data_collection/linux/lintimer.h" open="0" top="0" tabpos="0">
+		<Cursor position="2847" topLine="53" />
+	</File>
+	<File name="performer/data_collection/linux/procsmaps.h" open="0" top="0" tabpos="0">
+		<Cursor position="148" topLine="0" />
+	</File>
+	<File name="performer/data_collection/linux/procstatus.h" open="0" top="0" tabpos="0">
+		<Cursor position="149" topLine="0" />
+	</File>
+	<File name="performer/data_collection/pstructs.h" open="0" top="0" tabpos="6">
+		<Cursor position="4237" topLine="70" />
+	</File>
+	<File name="performer/data_collection/resultxml.h" open="0" top="0" tabpos="3">
+		<Cursor position="653" topLine="7" />
+	</File>
+	<File name="performer/data_collection/timer.h" open="0" top="0" tabpos="0">
+		<Cursor position="1555" topLine="18" />
+	</File>
+	<File name="performer/data_collection/windows/winfactory.h" open="0" top="0" tabpos="0">
+		<Cursor position="352" topLine="0" />
+	</File>
+	<File name="performer/data_collection/windows/winmemprof.h" open="0" top="0" tabpos="0">
+		<Cursor position="147" topLine="0" />
+	</File>
+	<File name="performer/data_collection/windows/wintimer.h" open="0" top="0" tabpos="0">
+		<Cursor position="3467" topLine="71" />
+	</File>
+	<File name="performer/performer.h" open="0" top="0" tabpos="0">
+		<Cursor position="108" topLine="0" />
+	</File>
+	<File name="performer/pfactory.h" open="0" top="0" tabpos="3">
+		<Cursor position="2322" topLine="31" />
+	</File>
+	<File name="src/analysis/analyzer.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="223" topLine="73" />
+	</File>
+	<File name="src/analysis/comparer.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="364" topLine="0" />
+	</File>
+	<File name="src/analysis/paverage.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="1076" topLine="0" />
+	</File>
+	<File name="src/analysis/pfunctor.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="31" topLine="0" />
+	</File>
+	<File name="src/analysis/pmax.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="30" topLine="34" />
+	</File>
+	<File name="src/analysis/pmin.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="31" topLine="83" />
+	</File>
+	<File name="src/analysis/pstddeviation.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="2121" topLine="28" />
+	</File>
+	<File name="src/config/configfile.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="4170" topLine="179" />
+	</File>
+	<File name="src/data_collection/datacollector.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1015" topLine="17" />
+	</File>
+	<File name="src/data_collection/linux/linfactory.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="43" topLine="0" />
+	</File>
+	<File name="src/data_collection/linux/linmemprof.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="305" topLine="0" />
+	</File>
+	<File name="src/data_collection/linux/lintimer.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="3320" topLine="170" />
+	</File>
+	<File name="src/data_collection/linux/procsmaps.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="9032" topLine="96" />
+	</File>
+	<File name="src/data_collection/linux/procstatus.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="36" topLine="0" />
+	</File>
+	<File name="src/data_collection/pstructs.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="3317" topLine="81" />
+	</File>
+	<File name="src/data_collection/resultxml.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="27368" topLine="697" />
+	</File>
+	<File name="src/data_collection/windows/winfactory.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="47" topLine="0" />
+	</File>
+	<File name="src/data_collection/windows/winmemprof.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="29" topLine="0" />
+	</File>
+	<File name="src/data_collection/windows/wintimer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="46" topLine="0" />
+	</File>
+	<File name="src/pfactory.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="703" topLine="31" />
+	</File>
+</CodeBlocks_layout_file>

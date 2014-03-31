@@ -1,0 +1,106 @@
+
+<result rid="1253746478" tsource="atsource">
+
+  <speed_result>
+    <stest tsection="xmlTest">
+      <walltime>1.96991e+07</walltime>
+      <cputime>
+        <totaltime>20001</totaltime>
+        <usrtime>20001</usrtime>
+        <systime>0</systime>
+      </cputime>
+    </stest>
+    <stest tsection="xmlTest">
+      <walltime>1.76032e+07</walltime>
+      <cputime>
+        <totaltime>16001</totaltime>
+        <usrtime>16001</usrtime>
+        <systime>0</systime>
+      </cputime>
+    </stest>
+  </speed_result>
+
+  <memory_result>
+    <mtest tsection="xmlTest2">
+      <virtual>8316</virtual>
+      <resident>3108</resident>
+      <referenced>3032</referenced>
+      <swap>76</swap>
+      <dirty>648</dirty>
+      <clean>2460</clean>
+      <private>
+        <private_total>2184</private_total>
+        <private_dirty>648</private_dirty>
+        <private_clean>1536</private_clean>
+      </private>
+      <shared>
+        <total_shared>924</total_shared>
+        <shared_dirty>0</shared_dirty>
+        <shared_clean>924</shared_clean>
+      </shared>
+      <stack>
+        <stack_vss>84</stack_vss>
+        <stack_rss>8</stack_rss>
+        <stack_ref>0</stack_ref>
+        <stack_dirty>8</stack_dirty>
+        <stack_clean>0</stack_clean>
+      </stack>
+      <heap>
+        <heap_vss>132</heap_vss>
+        <heap_rss>68</heap_rss>
+        <heap_ref>0</heap_ref>
+        <heap_dirty>68</heap_dirty>
+        <heap_clean>0</heap_clean>
+      </heap>
+      <vm_data>220</vm_data>
+      <vm_exe>12</vm_exe>
+      <vm_lib>7696</vm_lib>
+      <vm_pte>24</vm_pte>
+      <page_faults>0</page_faults>
+    </mtest>
+    <mtest tsection="xmlTest3">
+      <virtual>8628</virtual>
+      <resident>4304</resident>
+      <referenced>3976</referenced>
+      <swap>328</swap>
+      <dirty>912</dirty>
+      <clean>3392</clean>
+      <private>
+        <private_total>3224</private_total>
+        <private_dirty>912</private_dirty>
+        <private_clean>2312</private_clean>
+      </private>
+      <shared>
+        <total_shared>1080</total_shared>
+        <shared_dirty>0</shared_dirty>
+        <shared_clean>1080</shared_clean>
+      </shared>
+      <stack>
+        <stack_vss>84</stack_vss>
+        <stack_rss>20</stack_rss>
+        <stack_ref>0</stack_ref>
+        <stack_dirty>20</stack_dirty>
+        <stack_clean>0</stack_clean>
+      </stack>
+      <heap>
+        <heap_vss>396</heap_vss>
+        <heap_rss>308</heap_rss>
+        <heap_ref>0</heap_ref>
+        <heap_dirty>308</heap_dirty>
+        <heap_clean>0</heap_clean>
+      </heap>
+      <vm_data>484</vm_data>
+      <vm_exe>12</vm_exe>
+      <vm_lib>7704</vm_lib>
+      <vm_pte>24</vm_pte>
+      <page_faults>0</page_faults>
+    </mtest>
+  </memory_result>
+
+  <section_list>
+    <section>xmlTest</section>
+    <section>xmlTest2</section>
+    <section>xmlTest3</section>
+  </section_list>
+
+</result>

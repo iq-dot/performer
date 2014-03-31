@@ -1,0 +1,324 @@
+# depslib dependency file v1.0
+1249903552 source:/media/disk/performer-1.0/main.c
+
+1250085349 source:/media/disk/performer-1.0/performer/linux/linmemprof.cpp
+	<stdlib.h>
+	"linmemprof.h"
+
+1251054416 /media/disk/performer-1.0/performer/linux/linmemprof.h
+	<stdlib.h>
+	"performer/memprof.h"
+	"performer/linux/procsmaps.h"
+	"performer/linux/procstatus.h"
+
+1251311108 /media/disk/performer-1.0/performer/memprof.h
+	"pstructs.h"
+
+1250970132 /media/disk/performer-1.0/performer/linux/procsmaps.h
+	<boost/regex.hpp>
+	<stdlib.h>
+	<string>
+	"performer/pstructs.h"
+
+1250970142 /media/disk/performer-1.0/performer/linux/procstatus.h
+	<boost/regex.hpp>
+	<stdlib.h>
+	<string>
+	"performer/pstructs.h"
+
+1246649428 source:/media/disk/performer-1.0/performer/linux/lintimer.cpp
+	"lintimer.h"
+	<iostream>
+	<stdlib.h>
+	<unistd.h>
+	<sys/wait.h>
+	<stdio.h>
+
+1251116242 /media/disk/performer-1.0/performer/linux/lintimer.h
+	<sys/time.h>
+	<sys/resource.h>
+	<time.h>
+	"performer/timer.h"
+
+1251116320 /media/disk/performer-1.0/performer/timer.h
+	"performer/pstructs.h"
+
+1249491660 source:/media/disk/performer-1.0/performer/linux/procsmaps.cpp
+	"procsmaps.h"
+	<iostream>
+	<sstream>
+
+1249491660 source:/media/disk/performer-1.0/performer/linux/procstatus.cpp
+	"procstatus.h"
+	<sstream>
+
+1251054438 source:/media/disk/performer-1.0/src/linux/linmemprof.cpp
+	<stdlib.h>
+	"performer/linux/linmemprof.h"
+
+1251243148 source:/media/disk/performer-1.0/src/linux/lintimer.cpp
+	"performer/linux/lintimer.h"
+	<iostream>
+	<stdlib.h>
+	<unistd.h>
+	<sys/wait.h>
+	<stdio.h>
+
+1250086128 source:/media/disk/performer-1.0/src/linux/procsmaps.cpp
+	"linux/procsmaps.h"
+	<iostream>
+	<sstream>
+
+1250086958 source:/media/disk/performer-1.0/src/linux/procstatus.cpp
+	"linux/procstatus.h"
+	<sstream>
+
+1250088374 source:/media/disk/performer-1.0/src/proctest.cpp
+	"linux/procsmaps.h"
+	"linux/procstatus.h"
+	<iostream>
+
+1250086959 /media/disk/performer-1.0/src/linux/procstatus.cpp
+	"linux/procstatus.h"
+	<sstream>
+
+1250368542 /media/disk/performer-1.0/performer/pstructs.h
+
+1251243480 source:/media/disk/performer-1.0/src/resultxml.cpp
+	"performer/resultxml.h"
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/util/OutOfMemoryException.hpp>
+	<xercesc/framework/LocalFileFormatTarget.hpp>
+	<sstream>
+	<iostream>
+	<ctime>
+
+1251243352 /media/disk/performer-1.0/performer/resultxml.h
+	<xercesc/dom/DOM.hpp>
+	<xercesc/parsers/XercesDOMParser.hpp>
+	<xercesc/util/XMLString.hpp>
+	"pstructs.h"
+
+1250712851 source:/media/disk/performer-1.0/src/main.cpp
+	"resultxml.h"
+
+1250805973 source:/media/disk/performer-1.0/framework_test.cpp
+	"resultxml.h"
+	<iostream>
+
+1250883206 source:/media/disk/performer-1.0/src/linfactory.cpp
+	"linfactory.h"
+
+1250882994 /media/disk/performer-1.0/performer/linfactory.h
+	<performfactory.h>
+
+1250884052 /media/disk/performer-1.0/performer/performfactory.h
+	"timer.h"
+	"memprof.h"
+
+1250883126 source:/media/disk/performer-1.0/src/winfactory.cpp
+	"winfactory.h"
+
+1250884278 /media/disk/performer-1.0/performer/winfactory.h
+	"performfactory.h"
+
+1251059614 source:/media/disk/performer-1.0/src/configfile.cpp
+	"performer/configfile.h"
+
+1251312386 /media/disk/performer-1.0/performer/configfile.h
+
+1251067916 source:/media/disk/performer-1.0/src/datacollector.cpp
+	"performer/datacollector.h"
+	"performer/configfile.h"
+	<string>
+
+1251059688 /media/disk/performer-1.0/performer/datacollector.h
+	"performer/configfile.h"
+
+1253746955 source:/media/disk/performer-1.0/src/analysis/comparer.cpp
+	"performer/analysis/comparer.h"
+
+1253746859 /media/disk/performer-1.0/performer/analysis/comparer.h
+	<performer/analysis/analyzer.h>
+	<iostream>
+	<sstream>
+
+1253572496 source:/media/disk/performer-1.0/src/analysis/analyzer.cpp
+	"performer/analysis/analyzer.h"
+	<algorithm>
+	<performer/analysis/paverage.h>
+	<performer/analysis/pmin.h>
+	<performer/analysis/pmax.h>
+	<performer/analysis/pstddeviation.h>
+
+1253572032 /media/disk/performer-1.0/performer/analysis/analyzer.h
+	"performer/config/configfile.h"
+	"performer/data_collection/pstructs.h"
+
+1253746226 source:/media/disk/performer-1.0/src/config/configfile.cpp
+	"performer/config/configfile.h"
+	<ctime>
+	<sstream>
+
+1253746051 /media/disk/performer-1.0/performer/config/configfile.h
+	"performer/analysis/pfunctor.h"
+	"performer/data_collection/resultxml.h"
+	<string>
+
+1253734406 /media/disk/performer-1.0/performer/data_collection/pstructs.h
+	<vector>
+	<map>
+	<set>
+	<string>
+	<iostream>
+
+1253746314 source:/media/disk/performer-1.0/src/data_collection/datacollector.cpp
+	"performer/data_collection/datacollector.h"
+	"performer/config/configfile.h"
+	"performer/pfactory.h"
+	<iostream>
+
+1253734207 /media/disk/performer-1.0/performer/data_collection/datacollector.h
+	"performer/config/configfile.h"
+	"performer/data_collection/resultxml.h"
+	"performer/data_collection/pstructs.h"
+	"performer/data_collection/timer.h"
+	"performer/data_collection/memprof.h"
+
+1253388818 /media/disk/performer-1.0/performer/data_collection/linux/lintimer.h
+	<sys/time.h>
+	<sys/resource.h>
+	<time.h>
+	"performer/data_collection/timer.h"
+
+1253388590 /media/disk/performer-1.0/performer/data_collection/timer.h
+	"performer/data_collection/pstructs.h"
+
+1253734129 /media/disk/performer-1.0/performer/data_collection/resultxml.h
+	<xercesc/dom/DOM.hpp>
+	<xercesc/parsers/XercesDOMParser.hpp>
+	<xercesc/util/XMLString.hpp>
+	"performer/data_collection/pstructs.h"
+
+1253394526 source:/media/disk/performer-1.0/src/data_collection/linux/linfactory.cpp
+	"performer/data_collection/linux/linfactory.h"
+	"performer/data_collection/linux/lintimer.h"
+	"performer/data_collection/linux/linmemprof.h"
+
+1253394548 /media/disk/performer-1.0/performer/data_collection/linux/linfactory.h
+	<performer/pfactory.h>
+
+1253389126 /media/disk/performer-1.0/performer/data_collection/pfactory.h
+	"performer/data_collection/timer.h"
+	"performer/data_collection/memprof.h"
+
+1253388646 /media/disk/performer-1.0/performer/data_collection/memprof.h
+	"pstructs.h"
+
+1252073290 source:/media/disk/performer-1.0/src/data_collection/linux/linmemprof.cpp
+	<stdlib.h>
+	"performer/data_collection/linux/linmemprof.h"
+
+1252073272 /media/disk/performer-1.0/performer/data_collection/linux/linmemprof.h
+	<stdlib.h>
+	"performer/data_collection/memprof.h"
+	"performer/data_collection/linux/procsmaps.h"
+	"performer/data_collection/linux/procstatus.h"
+
+1251812496 /media/disk/performer-1.0/performer/data_collection/linux/procsmaps.h
+	<boost/regex.hpp>
+	<stdlib.h>
+	<string>
+	"performer/data_collection/pstructs.h"
+
+1251812510 /media/disk/performer-1.0/performer/data_collection/linux/procstatus.h
+	<boost/regex.hpp>
+	<stdlib.h>
+	<string>
+	"performer/data_collection/pstructs.h"
+
+1251816668 source:/media/disk/performer-1.0/src/data_collection/linux/lintimer.cpp
+	"performer/data_collection/linux/lintimer.h"
+	<iostream>
+	<stdlib.h>
+	<unistd.h>
+	<sys/wait.h>
+	<stdio.h>
+
+1251909750 source:/media/disk/performer-1.0/src/data_collection/linux/procsmaps.cpp
+	"performer/data_collection/linux/procsmaps.h"
+	<iostream>
+	<sstream>
+
+1251812554 source:/media/disk/performer-1.0/src/data_collection/linux/procstatus.cpp
+	"performer/data_collection/linux/procstatus.h"
+	<sstream>
+
+1253734874 source:/media/disk/performer-1.0/src/data_collection/resultxml.cpp
+	"performer/data_collection/resultxml.h"
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/util/OutOfMemoryException.hpp>
+	<xercesc/framework/LocalFileFormatTarget.hpp>
+	<sstream>
+	<iostream>
+	<ctime>
+
+1253734545 source:/media/disk/performer-1.0/src/data_collection/pstructs.cpp
+	"performer/data_collection/pstructs.h"
+	<iterator>
+	<algorithm>
+
+1253572544 source:/media/disk/performer-1.0/src/analysis/paverage.cpp
+	"performer/analysis/paverage.h"
+	<functional>
+	<iostream>
+
+1253475822 /media/disk/performer-1.0/performer/analysis/paverage.h
+	<performer/analysis/pfunctor.h>
+
+1253475762 /media/disk/performer-1.0/performer/analysis/pfunctor.h
+	"performer/data_collection/pstructs.h"
+
+1253459786 source:/media/disk/performer-1.0/src/analysis/pfunctor.cpp
+	"performer/analysis/pfunctor.h"
+
+1253477050 source:/media/disk/performer-1.0/src/analysis/pmax.cpp
+	"performer/analysis/pmax.h"
+
+1253475858 /media/disk/performer-1.0/performer/analysis/pmax.h
+	<performer/analysis/pfunctor.h>
+
+1253477080 source:/media/disk/performer-1.0/src/analysis/pmin.cpp
+	"performer/analysis/pmin.h"
+
+1253475890 /media/disk/performer-1.0/performer/analysis/pmin.h
+	<performer/analysis/pfunctor.h>
+
+1253394612 /media/disk/performer-1.0/performer/data_collection/windows/winfactory.h
+	"performer/performfactory.h"
+
+1253376378 source:/media/disk/performer-1.0/src/config/linpriority.cpp
+	<sys/resource.h>
+	"performer/config/configfile.h"
+
+1253746981 /media/disk/performer-1.0/performer/pfactory.h
+	"performer/data_collection/timer.h"
+	"performer/data_collection/memprof.h"
+	"performer/data_collection/resultxml.h"
+	"performer/data_collection/datacollector.h"
+	"performer/analysis/analyzer.h"
+	"performer/analysis/comparer.h"
+	"performer/config/configfile.h"
+
+1253712797 source:/media/disk/performer-1.0/src/pfactory.cpp
+	"performer/pfactory.h"
+	"performer/data_collection/linux/linfactory.h"
+	"performer/data_collection/windows/winfactory.h"
+
+1253742792 source:/media/disk/performer-1.0/src/analysis/pstddeviation.cpp
+	"performer/analysis/pstddeviation.h"
+	<cmath>
+
+1253480758 /media/disk/performer-1.0/performer/analysis/pstddeviation.h
+	<performer/analysis/pfunctor.h>
+
